@@ -1,0 +1,37 @@
+/* Geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akronim', cursive;
+    font-size: 20px;
+}
+
+#container h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.jogo {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+.dino {
+    left: 0;
+    bottom: 0;
+    background-image: url('../img/dino.png');
+}
+
+.cactu {
+    background-image: url('../img/cactus.png');
+    right: 0;
+    bottom: 0;
+    right: 0;
+}
